@@ -2,7 +2,7 @@
 
 
 
-const backendDomain = "http://localhost:4000"
+const backendDomain = "https://ecomercevercel1.vercel.app/"
 const SummaryApi = {
     signUP : {
         url : `${backendDomain}/api/signup`,
