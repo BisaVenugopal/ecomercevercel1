@@ -11,7 +11,7 @@ const app = express()
 app.use(bodyParser.json({ limit: '50mb' })); // Adjust limit as needed
 app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 app.use(cors({
-    origin : ["https://deploy-mern-1whq.vercel.app"],
+    origin : ["https://ecomercevercel1-oy3s.vercel.app/"],
     methods : ["POST","GET"],
     credentials : true
 }))
